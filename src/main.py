@@ -1,5 +1,6 @@
 from services.ExampleService import ExampleService
 from services.RequestService import RequestService
+from rootExample import testEx
 
 
 
@@ -12,3 +13,4 @@ if __name__ == "__main__":
 
     print(myRequestService.get_example())
 
+    print(testEx.getWords())
