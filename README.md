@@ -29,3 +29,7 @@ This command will create the required directories and place a pyvenv.cfg file in
 4. To test your code simply run the main.py file
 
 `python ./src/main.py`
+
+## Wrapping up
+
+When you are finished with your virtual environment, simply type `deactivate` and it will deactivate the environment.
