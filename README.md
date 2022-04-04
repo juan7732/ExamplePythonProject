@@ -16,6 +16,7 @@ This command will create the required directories and place a pyvenv.cfg file in
 
 (Depends on Platform)
 | Platform | Shell      | Command                               |
+| -------- | ---------- | ------------------------------------- |
 | POSIX    | bash/zsh   | `$ source <venv>/bin/activate`        |
 |          | pscore     | `$ <venv>/bin/Activate.ps1`           | 
 | Windows  | cmd        | `C:\> <venv>\Scripts\activate.bat`    |
