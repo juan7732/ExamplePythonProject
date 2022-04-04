@@ -33,3 +33,13 @@ This command will create the required directories and place a pyvenv.cfg file in
 ## Wrapping up
 
 When you are finished with your virtual environment, simply type `deactivate` and it will deactivate the environment.
+
+# Why the structure (Using Regular Packages)
+From [The Python 3 docs](https://docs.python.org/3/reference/import.html#packages)
+
+In python you can modularize your code by adding a special file to your directories. This file `__init__.py` indicates that you want what is known as a "Regular Package" which comes from Python 3.2 and earlier. This allows you to have a file `__init__.py` be implicitly executed. You can add import logic if needed, or leave empty and allow for you to import them as modules in other parts of your code. You don't always need a root level `__init__.py` but if you wanted to import code from a file at the same root level as your `main.py` then you will need to add one.
+
+## Namespace Packages
+For Namespace Packages refernce [the Python Packaging Docs](https://packaging.python.org/en/latest/guides/packaging-namespace-packages/)
+
+These packages are slightly different as they are more intended to be separately installed, used, and versioned. Similar to a package created for NPM.
